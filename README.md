@@ -38,7 +38,12 @@ this updates .gitignore
 git secret hide
 ```
 5.  add precommit hook
-
+6.  reveal 
+```bash 
+git secret cat path/to/file
+git secret reveal
+```
+adds files without the .secret extension, retaining the file prefix
 
 ## what if i accidently push a password
 
