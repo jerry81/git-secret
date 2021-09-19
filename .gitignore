@@ -1,3 +1,4 @@
 .gitsecret/keys/random_seed
 !*.secret
 passwords/test.txt
+passwords/passwordsbackup.txt
