@@ -28,6 +28,17 @@ creates .gitsecret folder
 ```bash
 git secret tell email
 ```
+3.  add file
+```bash
+git secret add filename
+```
+this updates .gitignore
+4.  encrypt added files
+```bash
+git secret hide
+```
+5.  add precommit hook
+
 
 ## what if i accidently push a password
 
