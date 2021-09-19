@@ -18,6 +18,17 @@ brew install git-secret
 
 ## usage 
 
+0.  have gpg key pair
+1.  init
+```bash
+git secret init
+```
+creates .gitsecret folder
+2. add user 
+```bash
+git secret tell email
+```
+
 ## what if i accidently push a password
 
 [option 1, kill the history and everything related to the file](https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/removing-sensitive-data-from-a-repository)
