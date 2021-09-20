@@ -1,0 +1,7 @@
+#!/bin/sh
+GREENBOLD='\033[0;32;1m' # 1m means bold
+REDBOLD='\033[0;31;1m'
+echo "${GREENBOLD} precommit works"
+git secret hide -m
+echo "${GREENBOLD} this hook will always pass commit, exiting with 0"
+exit 0
